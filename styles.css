@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+}
+
+img {
+    height:auto;
+    width: 250px;
+}
+
+.first-header {
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(34, 43, 92);
+    flex-direction: column;
+    color:white;
+}
+
+.header-flex {
+    display: flex;
+}
+
+.middle-imgs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-quote {
+    background-color: lightgrey;
+}
+/*
+can div(group last 3 sections in the bottom class). looks like a footer and a blue box with text/sign up button. then focus on margins/padding of whole page.
+*/
